@@ -954,7 +954,7 @@ class CI_Upload {
 			}
 			elseif (is_file(APPPATH.'config/mimes.php'))
 			{
-				include(APPPATH.'config//mimes.php');
+				include(APPPATH.'config/mimes.php');
 			}
 			else
 			{
